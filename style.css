@@ -1,0 +1,24 @@
+/*import*/
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto')
+
+/*General Global setting */
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+:root{
+  --primary: #ff0066;
+}
+
+body {
+  position: relative;
+  background: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden; 
+}
+  
