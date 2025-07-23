@@ -72,7 +72,7 @@ header.active{
   text-transform: uppercase;
   letter-spacing: 1px;
   cursor: pointer;
-  transition 0.5s
+  transition: 0.5s;
   font-weight: 350;
   padding: 10px;
 }
