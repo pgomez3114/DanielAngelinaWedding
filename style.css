@@ -48,7 +48,7 @@ header.active{
 
 .logo {
   font-family: 'Great Vibes', cursive;
-  font-size: 40px;
+  font-size: 60px;
   color: #000000;
   letter-spacing: 2px;
   font-weight: 400;
@@ -60,7 +60,7 @@ header.active{
   color: #000000;
   font-size: 2em;
   transition: 0.5s;
-  align-items: center;
+  align-items: left;
   display:flex;
 }
 .nav {
