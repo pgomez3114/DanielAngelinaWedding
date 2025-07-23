@@ -57,7 +57,7 @@ header.active{
   color: #000000;
   font-size: 2em;
   transition: 0.5s;
-
+}
 .nav {
   display: flex;
 }
@@ -68,7 +68,7 @@ header.active{
 
   .nav li a {
   color: #000000;
-  text-decpration: none;
+  text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 1px;
   cursor: pointer;
