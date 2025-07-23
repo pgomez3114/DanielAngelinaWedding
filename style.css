@@ -53,6 +53,7 @@ header.active{
   letter-spacing: 2px;
   font-weight: 400;
   text-decoration: none;
+  line-height: 0.7;
 }
 
 .menu {
