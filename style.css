@@ -60,6 +60,8 @@ header.active{
   color: #000000;
   font-size: 2em;
   transition: 0.5s;
+  align-items: center;
+  display:flex;
 }
 .nav {
   display: flex;
