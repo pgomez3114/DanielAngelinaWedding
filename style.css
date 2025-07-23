@@ -41,5 +41,5 @@ header{
 
 header.active{
   background: #ffffff;
-  box-shadow: 0 0 50px rgba(0, green, blue, alpha);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.15);
   
