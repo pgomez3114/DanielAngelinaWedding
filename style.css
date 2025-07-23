@@ -10,7 +10,7 @@ box-sizing: border-box;
 }
 
 :root{
-  --primary: #ff0066;
+  --primary: #199e1e;
 }
 
 body {
@@ -46,7 +46,7 @@ header.active{
 
 .logo {
   font-family: 'Great Vibes', cursive;
-  font-size: 80px;
+  font-size: 60px;
   color: #000000;
   letter-spacing: 2px;
   font-weight: 400;
@@ -82,6 +82,18 @@ header.active{
   color: var(--primary);
 }
 
+.banner {
+  position: relative;
+  width: 100;
+  height: 100vh;
+  paffing: 0 100px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  overflow: hidden;
+  transition: 0.5s;
+}
+  
   
 
 
