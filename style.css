@@ -46,7 +46,7 @@ header.active{
 
 .logo {
   font-family: 'Great Vibes', cursive;
-  font-size: 80px
+  font-size: 80px;
   color: #000000;
   letter-spacing: 2px;
   font-weight: 400;
@@ -60,5 +60,28 @@ header.active{
 
 .nav {
   display: flex;
+
+.nav li{
+  list-style: none;
+  margin: 0 20 px;
+}
+
+  .nav li a {
+  color: #000000;
+  text-decpration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition 0.5s
+  font-weight: 350;
+  padding: 10px;
+}
+
+.nav li a:hover,
+.nav li a.active{
+  color: var(--primary);
+}
+
+  
 
 
