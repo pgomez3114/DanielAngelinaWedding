@@ -42,4 +42,15 @@ header{
 header.active{
   background: #ffffff;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.15);
-  
+}
+
+.logo {
+  font-family: 'Great Vibes', cursive;
+  font-size: 40px
+  color: #000000;
+  letter-spacing: 2px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+
