@@ -125,16 +125,47 @@ header.active{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); 
+  transform: scale(0) translate(-50%, -50%); 
   width: 60vw;
   z-index: 1100;
   transition: ease-in-out 3s;
+  opacity: 0;
+  visibility: hidden;
 }
 
 .bg-slide .content h1{
     font-size: 8em;
     text-transform: uppercase;
 }
-  
+
+.bg-slide .content p{
+    font-family: 'Roboto', Sans-Serif;
+    font-weight: 200;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+}
+
+.bg-slide.active .content{
+   transform: scale(1) translate(-50%, -50%);
+   opacity: 1;
+   visibility: visible; 
+}
+
+.circle {
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0,0) rotateZ(0);
+    opacity: 0; 
+    visibility: hidden;
+    transition: 3s;
+}
+
+
+.circle.bg {
+  background: transparent;
+}
 
 
