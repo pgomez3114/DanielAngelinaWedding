@@ -202,3 +202,9 @@ header.active{
 .circle.small img{
   transform: scale(4);
 }
+
+.bg-slide.active .circle.bg {
+  transform: translate(0,0) rotatez(-360deg);
+  opacity: 1;
+  visibility: visible;
+}
