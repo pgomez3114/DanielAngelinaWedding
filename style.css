@@ -125,8 +125,15 @@ header.active{
   position: absolute;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%); 
   width: 60vw;
   z-index: 1100;
+  transition: ease-in-out 3s;
+}
+
+.bg-slide .content h1{
+    font-size: 8em;
+    text-transform: uppercase;
 }
   
 
