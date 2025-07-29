@@ -230,3 +230,22 @@ header.active{
   gap: 200px;
   margin-bottom: 0;
 }
+
+.slide-loader li{
+  list-style: none;
+}
+
+.slide-loader li a{
+  text-decoration: none;
+  color: #111111;
+  font-size:2em;
+  font-weight:800;
+  transition:0.5;
+  line-height: 1em;
+  cursor: pointer;
+}
+
+slide-loader li a.active,
+.slide-loader li a:hover {
+  font-size: 4em;
+}
