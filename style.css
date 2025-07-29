@@ -158,14 +158,47 @@ header.active{
     justify-content: center;
     align-items: center;
     transform: translate(0,0) rotateZ(0);
-    opacity: 0; 
-    visibility: hidden;
+   /* opacity: 0; 
+    visibility: hidden; */
     transition: 3s;
 }
 
 
 .circle.bg {
   background: transparent;
+  width: 140vw;
+  height: 140vw;
+  border-radius: 0;
+
 }
 
+.circle.large{
+  width: 70vw;
+  height: 70vw;
+}
 
+.circle.small{
+  width:35vw;
+  height: 35vw;
+}
+
+.circle img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius:50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.circle.bg img {
+  border-radius: 0;
+}
+
+.circle.large img{
+  transform: scale(2);
+}
+
+.circle.small img{
+  transform: scale(4);
+}
