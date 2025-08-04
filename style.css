@@ -24,7 +24,7 @@ body {
   
 }
 
-@media (max-width: 768px) {
+
 header{
   position: absolute;
   top: 0;
@@ -250,4 +250,4 @@ header.active{
 .slide-loader li a:hover {
   font-size: 4em;
 }
-}
+
