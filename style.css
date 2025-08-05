@@ -261,3 +261,38 @@ header.active{
 
 }
 
+.share {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index:1200;
+}
+
+.share::before {
+  position: absolute;
+  content: '';
+  left:50%;
+  transform: translate(-50%);
+  top: -120;
+  height: 100px;
+  width: 2px;
+  background: #111111;
+}
+
+.share p{
+  writing-mode: vertical-rl;
+  text-transform: upercase;
+  font-weight:300;
+  letter-spacing: 1px;
+  color: #111111;
+
+}
+
+share a {
+  text-decoration: none;
+  color: #111111;
+
+}
