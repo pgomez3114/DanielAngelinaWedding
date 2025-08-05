@@ -251,3 +251,13 @@ header.active{
   font-size: 4em;
 }
 
+.slideloader:: before{
+  position: absolute;
+  content:'';
+  left:-70%;
+  width: 100px;
+  height:2px;
+  background: #111111;
+
+}
+
