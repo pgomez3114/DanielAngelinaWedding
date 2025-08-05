@@ -251,7 +251,7 @@ header.active{
   font-size: 4em;
 }
 
-.slideloader:: before{
+.slideloader::before{
   position: absolute;
   content:'';
   left:-70%;
